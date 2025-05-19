@@ -3,18 +3,19 @@ This project demonstrates an end-to-end modern data engineering pipeline built u
 
 
 
-    🔧 Tech Stack
-    Azure Data Factory (ADF) – for orchestrating data ingestion workflows
+ ## 🔧 Tech Stack
+ 
+ Azure Data Factory (ADF) – for orchestrating data ingestion workflows
     
-    Azure Data Lake Storage Gen2 – as a data lake to store raw and processed data
+ Azure Data Lake Storage Gen2 – as a data lake to store raw and processed data
+ 
+ Databricks (PySpark + Notebooks) – for data transformation, cleaning, and analysis
     
-    Databricks (PySpark + Notebooks) – for data transformation, cleaning, and analysis
+ Delta Lake – to manage versioned, ACID-compliant tables
     
-    Delta Lake – to manage versioned, ACID-compliant tables
+ Github API – public F1 racing data source
     
-    Github API – public F1 racing data source
-    
-    Spark SQL – for aggregations and final views.
+ Spark SQL – for aggregations and final views.
 
 
 🗂️ Project Phases
