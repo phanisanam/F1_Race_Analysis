@@ -1,0 +1,24 @@
+{
+	"name": "copyAPIdataTODL",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "API_to_DL",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/metadata/blobs/f1_lookup_data.json",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/dc35a7ac-5ab1-4691-afe8-ba41b72302e1/resourceGroups/F1_RaceData_Analysis/providers/Microsoft.Storage/storageAccounts/f1racersdata",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}

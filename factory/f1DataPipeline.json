@@ -1,0 +1,9 @@
+{
+	"name": "f1DataPipeline",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "17de5042-c016-4d13-8068-158a0271b7d1",
+		"tenantId": "90c144fd-3a3a-489c-a300-8084988ed80a"
+	}
+}
