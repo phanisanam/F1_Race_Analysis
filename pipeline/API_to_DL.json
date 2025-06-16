@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "csv_files_iteration",
+				"name": "files_iteration",
 				"type": "ForEach",
 				"dependsOn": [
 					{
